@@ -7,3 +7,6 @@ Enable dep tracking by creating go.mod
 When you add a new package reference in `import`, to install it in go.mod
 `go mod tidy`
 
+In order to develop a module and use it locally, replace
+`go mod edit -replace github.com/samirspatel/go-examples/greetings=../greetings`
+
