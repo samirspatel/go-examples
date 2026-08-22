@@ -1,9 +1,10 @@
 module github.com/samirspatel/go-examples/hello
 
-go 1.20
+go 1.24.1
 
 require (
 	github.com/samirspatel/go-examples/greetings v0.0.0-00010101000000-000000000000
+	github.com/samirspatel/go-examples/modulo v0.0.0-00010101000000-000000000000
 	rsc.io/quote v1.5.2
 )
 
@@ -13,3 +14,5 @@ require (
 )
 
 replace github.com/samirspatel/go-examples/greetings => ../greetings
+
+replace github.com/samirspatel/go-examples/modulo => ../modulo
